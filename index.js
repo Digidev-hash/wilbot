@@ -7,8 +7,8 @@ const bip32 = BIP32Factory(ecc)
 const Web3 = require('web3').default;
 const { Connection, clusterApiUrl, Keypair, LAMPORTS_PER_SOL } = require('@solana/web3.js');
 
-const ETH_MIN_SWEEP = '0.02'; // Minimum balance to sweep for ETH, BNB, and MATIC
-const SOL_MIN_SWEEP = 0.02; // Minimum balance to sweep for SOL
+const ETH_MIN_SWEEP = '0.0032'; // Minimum balance to sweep for ETH, BNB, and MATIC
+const SOL_MIN_SWEEP = 0.0032; // Minimum balance to sweep for SOL
 
 // Load seed phrases from the environment variable
 const SEED_PHRASES = process.env.SEED_PHRASES.split(',');
